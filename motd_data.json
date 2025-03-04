@@ -1,22 +1,402 @@
 [
     {
-        "map name": "Deciduous Nights",
-        "map time": 7,
-        "date": "2025-03-03 12:45",
-        "online": 16,
+        "map name": "Coastline",
+        "map time": 6,
+        "date": "2025-03-03 20:18",
+        "online": 54,
         "names": [
-            "KoningThijn11",
+            "Obaro",
+            "TitoDonald",
+            "iAleez",
+            "GSurov",
+            "FeydRautha0",
+            "Haytham",
+            "WelHellow3",
+            "Alvin_Sigma",
+            "ArcticYeti98",
+            "thrillah",
+            "ImpeachTrump",
+            "znsoolttarara"
+        ]
+    },
+    {
+        "map name": "Agrostid",
+        "map time": 70,
+        "date": "2025-03-03 21:21",
+        "online": 73,
+        "names": [
+            "Elsumitoese",
+            "ElBondadosoPROYT",
+            "SacredPlz",
+            "Loumardes",
+            "Vixzzy",
+            "Ito_Kaiji",
+            "Stratos10",
+            "carromalo",
             "Kooldawg1",
-            "Asius_S",
+            "IamJqstin_",
+            "byRobo",
+            "SilentWolf_"
+        ]
+    },
+    {
+        "map name": "Green Gem CTW",
+        "map time": 8,
+        "date": "2025-03-03 22:01",
+        "online": 67,
+        "names": [
+            "oyasumooni",
+            "ddnys",
+            "Lovey35",
+            "iLL_BLU",
+            "playfuldoggo",
+            "Baehem",
+            "Kooldawg1",
+            "paul_shocker",
+            "_saticilef_",
+            "Cleats",
+            "Melanyz",
+            "Just_"
+        ]
+    },
+    {
+        "map name": "Tic Tac K.O.",
+        "map time": 4,
+        "date": "2025-03-03 22:11",
+        "online": 54,
+        "names": [
+            "LibreBazaar",
+            "Kooldawg1",
+            "mueretetu",
+            "Ito_Kaiji",
+            "Maaxxxii",
+            "FeydRautha0",
+            "oyasumooni",
+            "Tayy",
+            "iLL_BLU",
+            "TJcontrol",
+            "j4kun4_1201",
+            "seangotdasauce"
+        ]
+    },
+    {
+        "map name": "Steel Valley",
+        "map time": 2,
+        "date": "2025-03-03 22:17",
+        "online": 56,
+        "names": [
+            "Leturi",
+            "Melanyz",
+            "alexL714",
+            "Maaxxxii",
+            "SoninhoBR",
+            "Ampered",
+            "JeremyPz_",
+            "mueretetu",
+            "FbprZ7",
+            "2ti",
+            "resplandezco",
+            "Soleclaw"
+        ]
+    },
+    {
+        "map name": "Araxa",
+        "map time": 113,
+        "date": "2025-03-03 22:21",
+        "online": 57,
+        "names": [
+            "Lorzz",
+            "ttam",
+            "byRobo",
+            "difofifo",
+            "carromalo",
+            "resplandezco",
+            "Leturi",
+            "Eartinq",
+            "Merowian",
+            "Seudonimo49",
+            "alexL714",
+            "FbprZ7"
+        ]
+    },
+    {
+        "map name": "Winter Solstice",
+        "map time": 3,
+        "date": "2025-03-04 00:15",
+        "online": 58,
+        "names": [
+            "Tayy",
+            "HaroldoEstilos",
+            "PokemanVillager",
+            "Bee_Ln",
+            "Ceyla",
+            "Ariesson100",
+            "Cleats",
             "Gabuski",
-            "spanwer",
+            "resplandezco",
+            "dasr12",
+            "Obaro",
+            "Tzyte"
+        ]
+    },
+    {
+        "map name": "Cannonball Cove",
+        "map time": 3,
+        "date": "2025-03-04 00:20",
+        "online": 52,
+        "names": [
+            "S_kid",
+            "suciocrippy",
+            "JeremyPz_",
+            "Jezus_mx",
+            "Tzyte",
+            "ImpeachTrump",
+            "Kooldawg1",
+            "Devy_Kot",
+            "Canada_Ozone",
+            "Knuckles",
+            "Ivinna",
+            "Eartinq"
+        ]
+    },
+    {
+        "map name": "Bamboo Valley V",
+        "map time": 3,
+        "date": "2025-03-04 00:24",
+        "online": 50,
+        "names": [
             "Aigang",
-            "Azbion",
-            "9878",
-            "neoincel",
-            "MarkAndILikePigs",
-            "xDemonism",
-            "ny9u"
+            "feldwyn",
+            "Bee_Ln",
+            "YSIV_",
+            "PrinceBuh",
+            "obcursus",
+            "HUDV",
+            "Ivinna",
+            "HaroldoEstilos",
+            "JeremyPz_",
+            "Devy_Kot",
+            "Melanyz"
+        ]
+    },
+    {
+        "map name": "Wit's End",
+        "map time": 3,
+        "date": "2025-03-04 00:29",
+        "online": 54,
+        "names": [
+            "Devy_Kot",
+            "xMaxoos",
+            "PokemanVillager",
+            "Gabuski",
+            "vapeazu",
+            "Kooldawg1",
+            "Soleclaw",
+            "ImpeachTrump",
+            "JeremyPz_",
+            "TapewormBoy",
+            "Ivinna",
+            "Anarquista"
+        ]
+    },
+    {
+        "map name": "Annealing II",
+        "map time": 2,
+        "date": "2025-03-04 00:34",
+        "online": 55,
+        "names": [
+            "EllisTea",
+            "Ampered",
+            "Obaro",
+            "Siceth",
+            "Gabuski",
+            "LibreBazaar",
+            "Rynae",
+            "Aigang",
+            "ImpeachTrump",
+            "obcursus",
+            "aelous",
+            "feldwyn"
+        ]
+    },
+    {
+        "map name": "Sunrise Over Paradise",
+        "map time": 2,
+        "date": "2025-03-04 00:38",
+        "online": 49,
+        "names": [
+            "Al3rXix",
+            "iFredZone",
+            "g_________ghandi",
+            "EllisTea",
+            "Anarquista",
+            "TapewormBoy",
+            "Bee_Ln",
+            "Aigang",
+            "Obaro",
+            "LibreBazaar",
+            "steve333333333",
+            "McJett"
+        ]
+    },
+    {
+        "map name": "Appalachia",
+        "map time": 5,
+        "date": "2025-03-04 00:42",
+        "online": 42,
+        "names": [
+            "g_________ghandi",
+            "Canada_Ozone",
+            "xMaxoos",
+            "xCrusaderXXX",
+            "EllisTea",
+            "Jezus_mx",
+            "PRO3NN3K3",
+            "TapewormBoy",
+            "irvinIRS",
+            "Laines3",
+            "Gabuski",
+            "ihzeisback"
+        ]
+    },
+    {
+        "map name": "Persisto",
+        "map time": 12,
+        "date": "2025-03-04 00:49",
+        "online": 35,
+        "names": [
+            "Obaro",
+            "Tzyte",
+            "ihzeisback",
+            "PrinceBuh",
+            "EllisTea",
+            "Narizon",
+            "Aigang",
+            "IHitTheWallAt20",
+            "ImpeachTrump",
+            "TapewormBoy",
+            "Canada_Ozone",
+            "GrapeLime"
+        ]
+    },
+    {
+        "map name": "Skycastle Islands",
+        "map time": 9,
+        "date": "2025-03-04 01:03",
+        "online": 39,
+        "names": [
+            "bibi83600",
+            "luvbyy",
+            "Furrie",
+            "ThatOneTqnk",
+            "xMaxoos",
+            "HUDV",
+            "sebasMC2009",
+            "PokemanVillager",
+            "aelous",
+            "EllisTea",
+            "Eartinq",
+            "Jezus_mx"
+        ]
+    },
+    {
+        "map name": "Ender Hill",
+        "map time": 4,
+        "date": "2025-03-04 01:14",
+        "online": 46,
+        "names": [
+            "i_Jedi",
+            "luvbyy",
+            "Eartinq",
+            "Tzyte",
+            "detectivesque",
+            "PokemanVillager",
+            "HackerHDPRO",
+            "06Killer_",
+            "g_________ghandi",
+            "Canada_Ozone",
+            "IHitTheWallAt20",
+            "ThatOneTqnk"
+        ]
+    },
+    {
+        "map name": "Island Divide",
+        "map time": 1,
+        "date": "2025-03-04 01:20",
+        "online": 46,
+        "names": [
+            "luvbyy",
+            "Kooldawg1",
+            "Compact_Storm",
+            "i_Jedi",
+            "GrapeLime",
+            "obcursus",
+            "RHCube",
+            "detectivesque",
+            "JorJoint",
+            "Soleclaw",
+            "ThatOneTqnk",
+            "nenamoree9"
+        ]
+    },
+    {
+        "map name": "Desert Cataract",
+        "map time": 9,
+        "date": "2025-03-04 01:23",
+        "online": 42,
+        "names": [
+            "RHCube",
+            "mueretetu",
+            "Eartinq",
+            "Haytham",
+            "Kooldawg1",
+            "vTafi",
+            "Furrie",
+            "obcursus",
+            "nenamoree9",
+            "dasr12",
+            "Yeraxe",
+            "Dekeiido"
+        ]
+    },
+    {
+        "map name": "Mole Dream",
+        "map time": 9,
+        "date": "2025-03-04 01:35",
+        "online": 44,
+        "names": [
+            "Furrie",
+            "Kooldawg1",
+            "_saticilef_",
+            "Samukah",
+            "orangle",
+            "TTtie",
+            "Cheetqh",
+            "Soleclaw",
+            "ThatOneTqnk",
+            "zlPeruvian",
+            "oyasumooni",
+            "Teheggi"
+        ]
+    },
+    {
+        "map name": "Desert Sanctuary 2.0",
+        "map time": 0,
+        "date": "2025-03-04 01:37",
+        "online": 46,
+        "names": [
+            "ThatOneTqnk",
+            "Ampered",
+            "aelous",
+            "Samukah",
+            "Meggato",
+            "Siceth",
+            "Soleclaw",
+            "Furrie",
+            "notmelo",
+            "dasr12",
+            "GrapeLime",
+            "_saticilef_"
         ]
     }
 ]

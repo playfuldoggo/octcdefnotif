@@ -77,15 +77,12 @@ async def update_motd():
     global timeonmap
     global mapname
     names = []
-    print(timeonmap)
     """Check for the new MOTD and update the stored value."""
     currentstatus = await get_motd_from_server()
     new_motd = currentstatus.description
-    print(currentstatus.players.sample)
     for player in currentstatus.players.sample:
         names.append(player.name)
     match = re.search(pattern, new_motd)
-    print(new_motd)
     if match:
         if match.group(1) != "a":
             return
@@ -139,7 +136,8 @@ async def on_ready():
     update_motd.start()
 
 @bot.command()
-async def channel(ctx, cid: str):
+@commands.has_permissions(administrator=True)
+async def notif_channel(ctx, cid: str):
     global CHANNEL_ID
     """Command to fetch the current MOTD from central storage."""
     CHANNEL_ID = int(cid)
@@ -149,6 +147,12 @@ async def channel(ctx, cid: str):
     else:
         await ctx.send("Could not find channel from ID.")
     print(f"current channel id: {CHANNEL_ID}")
+
+@bot.event
+async def on_guild_join(guild):
+    allowed_guild_ids = ['708041597408772164', '863182797752369173']
+    if str(guild.id) not in allowed_guild_ids:
+        await guild.leave()
 
 # Run the bot
 bot.run(os.getenv("DISCORD_TOKEN"))
