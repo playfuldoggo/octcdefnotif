@@ -6,18 +6,17 @@ import os
 import json
 from dotenv import load_dotenv
 import re
-load_dotenv()  # This will load the .env file and make the token accessible
+load_dotenv()
 
 # Set up intents
 intents = discord.Intents.default()
-intents.message_content = True  # Enable message content intent for reading messages
+intents.message_content = True
 
 # Initialize bot with intents
 bot = commands.Bot(command_prefix="!", intents=intents)
 
-# Store the MOTD in a file (in memory or a file-based approach)
 motd_data_file = 'motd_data.json'
-minecraft_server_ip = "play.oc.tc"  # Your Minecraft server IP
+minecraft_server_ip = "play.oc.tc"
 
 def load_map():
     """Load the current map from the file."""
@@ -37,7 +36,6 @@ def save_mapname(mapname, names, status):
     global timeonmap
     global saved_mapname
     saved_mapname = mapname
-    """Save the mapname to the file."""
     data = load_map()
     current_date = datetime.datetime.now().strftime('%Y-%m-%d %H:%M')
     new_data = {"map name": mapname, "map time": timeonmap, "date": current_date, "online": status.players.online, "names": names}
@@ -49,7 +47,7 @@ def save_mapname(mapname, names, status):
 def update_minutes(minutes):
     global timeonmap
     data = load_map()
-    if data:  # Check if there's at least one entry in the data
+    if data:
         # Update the "map time" of the most recent entry
         data[-1]['map time'] = minutes
         with open(motd_data_file, 'w') as file:
@@ -65,8 +63,7 @@ async def get_motd_from_server():
         print(f"Error fetching MOTD: {e}")
         return None
 
-# Define the channel ID where the message will be sent
-CHANNEL_ID = 708041597408772167  # Replace with your Discord channel ID
+CHANNEL_ID = 708041597408772167
 timeonmap = 0
 pattern = "§r§r§4Overcast §r§7Community§r\n§r§r§(.)»§r §r§b(.*?)§r §r§.«§r"
 saved_mapname = ""
@@ -88,9 +85,9 @@ async def update_motd():
             return
         mapname = match.group(2)
         if mapname != saved_mapname:
+            timeonmap = 0
             save_mapname(mapname, names, currentstatus)
             print(f"map updated to: {mapname}")
-            timeonmap = 0
         # if the motd hasn't changed in 1 minute
         else:
             print("map has not changed.")
@@ -99,7 +96,6 @@ async def update_motd():
             update_minutes(timeonmap)
         # output
         if CHANNEL_ID is not None:
-            print(CHANNEL_ID)
             channel = bot.get_channel(CHANNEL_ID)  # Get the channel by ID
             if channel:
                 if timeonmap == 60:
@@ -136,10 +132,9 @@ async def on_ready():
     update_motd.start()
 
 @bot.command()
-@commands.has_permissions(administrator=True)
+@commands.has_permissions(administrator=True) # require admin to use the command
 async def notif_channel(ctx, cid: str):
     global CHANNEL_ID
-    """Command to fetch the current MOTD from central storage."""
     CHANNEL_ID = int(cid)
     channel = bot.get_channel(CHANNEL_ID)
     if channel:
